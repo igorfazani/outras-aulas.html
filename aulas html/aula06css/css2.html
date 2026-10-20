@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo para praticar DIVs e CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- DIV que envolve todo o conteúdo da página -->
+    <div>
+
+        <!-- DIV do topo da página -->
+        <div class="topo">
+            <h1>Tech Criativa</h1>
+            <p>Soluções simples para ideias incríveis.</p>
+        </div>
+
+        <!-- DIV do menu de navegação -->
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#equipe">Equipe</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <hr>
+
+        <!-- DIV da apresentação principal -->
+        <div id="inicio">
+            <h2>Bem-vindo à Tech Criativa</h2>
+            <p>
+                Nós transformamos ideias em projetos digitais.
+                Nosso objetivo é criar soluções <strong>simples</strong>,
+                <strong>úteis</strong> e <em>criativas</em>.
+            </p>
+            <p>
+                Trabalhamos com dedicação para ajudar pessoas e pequenas
+                empresas a crescerem no mundo da tecnologia.
+            </p>
+        </div>
+
+        <hr>
+
+        <!-- DIV sobre a empresa -->
+        <div id="sobre">
+            <h2>Sobre a empresa</h2>
+            <p>
+                A Tech Criativa nasceu a partir de um projeto escolar.
+                Um grupo de estudantes decidiu unir seus conhecimentos para
+                desenvolver páginas, divulgar negócios e aprender novas tecnologias.
+            </p>
+            <p>
+                Nossa missão é tornar a tecnologia mais acessível.<br>
+                Nossa visão é aprender, criar e compartilhar conhecimento.
+            </p>
+        </div>
+
+        <hr>
+
+        <!-- DIV que reúne os serviços -->
+        <div id="servicos">
+            <h2>Nossos serviços</h2>
+            <div class="agrupamentoflex">
+                <!-- DIV do primeiro serviço -->
+                <div class="cartao">
+                    <h3>Criação de páginas</h3>
+                    <p>Criamos páginas de apresentação para pessoas e empresas.</p>
+                </div>
+
+                <!-- DIV do segundo serviço -->
+                <div class="cartao">
+                    <h3>Catálogos digitais</h3>
+                    <p>Organizamos produtos e informações em catálogos para a internet.</p>
+                </div>
+
+                <!-- DIV do terceiro serviço -->
+                <div class="cartao">
+                    <h3>Divulgação de projetos</h3>
+                    <p>Ajudamos a apresentar ideias de forma clara e interessante.</p>
+                </div>
+            </div>
+            <h3>Áreas em que atuamos</h3>
+            <ul>
+                <li>Desenvolvimento de páginas</li>
+                <li>Organização de conteúdo</li>
+                <li>Divulgação de pequenos negócios</li>
+                <li>Projetos escolares</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <!-- DIV da equipe -->
+        <div id="equipe">
+            <h2>Nossa equipe</h2>
+            <div class="agrupamentoflex">
+                <!-- Cada integrante está dentro de sua própria DIV -->
+                <div class="cartao">
+                    <img class="fotoequipe" src="imagens/depositphotos_211747508-stock-photo-back-view-teenage-gamer-boy.jpg" alt="">
+                    <h3>Ana Souza</h3>
+                    <p>Responsável pela organização e pelos textos dos projetos.</p>
+                </div>
+
+                <div class="cartao">
+                    <img class="fotoequipe" src="imagens/homem-malhando-na-academia_23-2149175370.avif" alt="">
+                    <h3>Bruno Lima</h3>
+                    <p>Responsável pela construção das páginas em HTML.</p>
+                </div>
+
+                <div class="cartao">
+                    <img class="fotoequipe" src="imagens/homem-lendo-livros-e-bebendo-café-pela-manhã-foto-de-alta-qualidade-243057408.webp" alt="">
+                    <h3>Carla Mendes</h3>
+                    <p>Responsável pelas ideias visuais e pela apresentação dos projetos.</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- DIV dos objetivos -->
+        <div>
+            <h2>Nossos próximos objetivos</h2>
+            <ol>
+                <li>Aprender mais sobre HTML</li>
+                <li>Aplicar estilos com CSS</li>
+                <li>Criar páginas responsivas</li>
+                <li>Publicar nosso primeiro projeto</li>
+            </ol>
+        </div>
+
+        <hr>
+
+        <!-- DIV de contato -->
+        <div id="contato">
+            <h2>Entre em contato</h2>
+            <p>
+                Quer conhecer melhor nosso trabalho?<br>
+                Envie uma mensagem para: contato@techcriativa.com
+            </p>
+            <p>
+                Conheça também o
+                <a href="https://www.sp.senai.br" target="_blank">site do SENAI-SP</a>.
+            </p>
+        </div>
+
+        <hr>
+
+        <!-- DIV do final da página -->
+        <div>
+            <p>Tech Criativa — Projeto desenvolvido para aprender HTML e CSS.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

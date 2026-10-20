@@ -1,0 +1,47 @@
+body {
+    margin: 0; /* tira a borda de um lugar... preferencialmente do body  */
+
+}
+
+header {
+    width: 100%;
+    padding: 15px 0; /* o primeiro le top, o segundo right o terceiro bottom e o quarto left */
+    background: rgb(171, 171, 54);
+}
+
+nav{
+    ul{
+        display: flex;  /* deixe eles lado a lado */
+        padding-left: 0;
+        li{
+            list-style: none; /* tira o simbolo das listas */
+            margin-right: 10px; /* espaçamento da direita pra esquerda */
+        }
+    }
+}
+
+footer{
+    background:rgb(105, 53, 53) ;
+    width: 100%;
+
+    ul{
+        display: flex;
+        li{
+            list-style:none;
+            margin-right: 10px;
+        }
+
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color:coral
+}
+
+
+/* position: relative ( isso na div pai) */
+
+
+/* position: absolue( isso na div filho) */
